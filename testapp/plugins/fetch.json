@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-kdc-sampledetector": {
+        "source": {
+            "type": "local",
+            "path": "C:\\personal\\cordova\\plugins_install\\cordova-plugin-kdc-sample"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

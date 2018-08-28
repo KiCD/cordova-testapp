@@ -1,0 +1,10 @@
+/out:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\intermediate\SgGenerated\\"
+/int:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\intermediate\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\intermediate\TransformedSRWR\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\in\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\in\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x64\ilc\lib\Private\\"
+/ref:"C:\personal\cordova\testapp\platforms\windows\build\windows\bld\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib

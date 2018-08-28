@@ -1,0 +1,1 @@
+C:\personal\cordova\testapp\platforms\windows\CordovaApp.Windows10.jsproj;x64

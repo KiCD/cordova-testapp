@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-kdc-sampledetector" version="1.0.0">
+    <name>Sample plugin</name>
+    <description>Sample plugin that just returns a string</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, sample, platform</keywords>
+
+    <js-module src="www/ExampleDetector.js" name="ExampleDetector">
+        <clobbers target="ExampleDetector" />
+    </js-module>
+
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="ExampleDetector">
+                <param name="android-package" value="ro.kdc.cordovaplugins.ExampleDetector" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml">
+        </config-file>
+        <source-file src="src/android/ExampleDetector.java" target-dir="src/ro/kdc/cordovaplugins" />
+    </platform>
+	<platform name="windows">
+        <js-module src="src/windows/ExampleDetectorProxy.js" name="ExampleDetectorProxy">
+            <merges target="" />
+        </js-module>
+		<framework src="src/windows/ExampleDetectorPlugin/ExampleDetectorPlugin/output/ExampleDetectorPlugin.winmd" custom="true" />
+    </platform>
+
+</plugin>
